@@ -1,9 +1,0 @@
-package com.taotao.service;
-
-import com.taotao.pojo.PageHelperUtils;
-
-public interface ItemService {
-	
-	PageHelperUtils getItemList(int page,int rows);
-
-}

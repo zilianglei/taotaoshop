@@ -1,7 +1,0 @@
-package com.taotao.service;
-
-public interface ItemService {
-	
-	PageHelperUtils getItemList(int total,int rows);
-
-}
