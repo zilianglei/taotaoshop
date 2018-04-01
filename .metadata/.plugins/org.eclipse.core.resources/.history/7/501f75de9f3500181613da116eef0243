@@ -1,0 +1,23 @@
+package com.taotao.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.taotao.pojo.PageHelperUtils;
+
+@Controller
+public class ItemController {
+	
+	
+	@RequestMapping(value="/item/list")
+	@ResponseBody
+	public PageHelperUtils getAllItem(){
+		
+		
+		return 
+	}
+	
+	
+
+}

@@ -1,0 +1,27 @@
+package com.taotao.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.taotao.pojo.TbItem;
+import com.taotao.service.ItemService;
+
+@Controller
+public class itemController {
+
+	
+	
+	@Autowired
+	private ItemService itemService;
+	
+	@RequestMapping(value="/item/{itemid}")
+	public TbItem getItemByid() {
+		
+		return TbItem;
+		
+		
+		
+		
+	}
+}

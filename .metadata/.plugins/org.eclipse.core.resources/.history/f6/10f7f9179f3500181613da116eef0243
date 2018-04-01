@@ -1,0 +1,20 @@
+package com.taotao.service.Impl;
+
+import com.taotao.pojo.PageHelperUtils;
+import com.github.pagehelper.PageHelper;
+import com.taotao.pojo.TbItemExample;
+import com.taotao.service.ItemService;
+
+public class ItemServiceImpl implements ItemService {
+
+	@Override
+	public PageHelperUtils getItemList(int page, int rows) {
+		
+		TbItemExample itemExample=new TbItemExample();
+		
+		PageHelper.
+		
+		return null;
+	}
+
+}

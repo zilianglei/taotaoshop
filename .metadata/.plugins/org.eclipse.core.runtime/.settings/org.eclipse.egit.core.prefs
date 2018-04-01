@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=D\:\\Java\\Taotao\\taotao-parent\\.git;D\:\\Java\\Taotao\\taotao-common\\.git;D\:\\Java\\Taotao\\taotao-manager\\.git;
+GitRepositoriesView.GitDirectories.relative=taotao-parent\\.git;taotao-common\\.git;taotao-manager\\.git;
+core_defaultRepositoryDir=D\:\\Git
+eclipse.preferences.version=1

@@ -1,0 +1,8 @@
+package com.taotao.common.pagehelper;
+
+public class PageHelper {
+	
+	private long total;
+	private int rows;
+
+}

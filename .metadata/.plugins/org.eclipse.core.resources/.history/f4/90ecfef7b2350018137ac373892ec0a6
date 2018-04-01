@@ -1,0 +1,16 @@
+package com.taotao.test;
+
+import org.junit.Test;
+
+import com.github.pagehelper.PageInfo;
+
+public class testa {
+	
+	@Test
+	public void testPageHelper() {
+		
+
+	}
+
+
+}

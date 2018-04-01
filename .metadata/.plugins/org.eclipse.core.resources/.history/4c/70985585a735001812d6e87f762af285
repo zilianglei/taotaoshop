@@ -1,0 +1,23 @@
+package com.taotao.controller;
+
+
+
+
+
+@Controller
+public class ItemController {
+	
+	@Autowired
+	private ItemService itemService;
+	
+	@RequestMapping(value="/item/list")
+	@ResponseBody
+	public PageHelperUtils getAllItem(Integer page,Integer rows ){
+		
+		PageHelperUtils result=itemService.getItemList(page, rows);
+		return result;
+	}
+	
+	
+
+}
